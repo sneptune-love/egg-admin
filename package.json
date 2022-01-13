@@ -1,0 +1,30 @@
+{
+  "name": "egg-admin",
+  "version": "1.0.0",
+  "description": "本地搭建一套前后台系统",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "cov": "egg-bin cov",
+    "test": "egg-bin test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sneptune-love/egg-admin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sneptune-love/egg-admin/issues"
+  },
+  "homepage": "https://github.com/sneptune-love/egg-admin#readme",
+  "dependencies": {
+    "egg": "^2.33.1",
+    "egg-view-nunjucks": "^2.3.0",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.16.4",
+    "egg-mock": "^4.2.0"
+  }
+}
