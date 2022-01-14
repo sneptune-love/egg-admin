@@ -20,6 +20,7 @@
   "homepage": "https://github.com/sneptune-love/egg-admin#readme",
   "dependencies": {
     "egg": "^2.33.1",
+    "egg-mysql": "^3.0.0",
     "egg-view-nunjucks": "^2.3.0",
     "moment": "^2.29.1"
   },
